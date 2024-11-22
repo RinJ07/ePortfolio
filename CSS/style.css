@@ -1,0 +1,78 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Header (Home Page) */
+header {
+    text-align: center;
+    padding: 50px;
+    background-color: #f4f4f4;
+}
+header img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+/* About Section */
+#about {
+    padding: 30px;
+    background-color: #eaeaea;
+}
+#about ul {
+    list-style: none;
+    padding: 0;
+}
+#about li {
+    margin: 5px 0;
+}
+
+/* Projects Section */
+#projects {
+    padding: 30px;
+    background-color: #fff;
+}
+.project {
+    margin-bottom: 20px;
+}
+.project img {
+    width: 100%;
+    max-width: 300px;
+}
+.project a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+/* Contact Section */
+#contact {
+    padding: 30px;
+    background-color: #f4f4f4;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+form label {
+    margin-top: 10px;
+}
+form input, form textarea, form button {
+    padding: 10px;
+    margin-top: 5px;
+}
+form button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: #0056b3;
+}
